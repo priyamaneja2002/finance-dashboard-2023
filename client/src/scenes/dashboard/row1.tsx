@@ -5,6 +5,7 @@ type Props = {}
 
 const Row1 = (props: Props) => {
   const { data } = useGetKpisQuery();
+  console.log('data:', data);
 
   return (
     <>
